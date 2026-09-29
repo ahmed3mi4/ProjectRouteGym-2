@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using ProjectRouteGym.Models;
+
 using System.Diagnostics;
 
 namespace ProjectRouteGym.Controllers

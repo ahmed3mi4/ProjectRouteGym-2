@@ -1,11 +1,15 @@
 using Microsoft.EntityFrameworkCore;
-using ProjectRouteGym.Data;
-using ProjectRouteGym.Data.Seed;
+using ProjectRouteGym.Business.Repositories;
+using ProjectRouteGym.DataAccess.Data;
+using ProjectRouteGym.DataAccess.Data.Seed;
+using ProjectRouteGym.DataAccess.Repositories;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IPlanRepository, PlanReprository>();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {

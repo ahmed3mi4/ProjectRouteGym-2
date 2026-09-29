@@ -1,3 +1,5 @@
 <Solution>
-  <Project Path="ProjectRouteGym/ProjectRouteGym.csproj" />
+  <Project Path="ProjectRouteGym.Business/ProjectRouteGym.Business.csproj" Id="c507288c-4c5b-44dc-9f18-8b9ac8fb61b6" />
+  <Project Path="ProjectRouteGym.DataAccess/ProjectRouteGym.DataAccess.csproj" Id="43b91ea5-37e8-40e6-89aa-da02bac81442" />
+  <Project Path="ProjectRouteGym/ProjectRouteGym.Presentation.csproj" />
 </Solution>

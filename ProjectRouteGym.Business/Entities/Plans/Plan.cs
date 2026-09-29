@@ -1,4 +1,4 @@
-﻿namespace ProjectRouteGym.Models.Plans;
+﻿namespace ProjectRouteGym.Business.Entities.Plans;
 
 public class Plan
 {

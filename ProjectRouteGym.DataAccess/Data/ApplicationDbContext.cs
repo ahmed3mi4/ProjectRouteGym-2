@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ProjectRouteGym.Models.Plans;
+using ProjectRouteGym.Business.Entities.Plans;
 
-namespace ProjectRouteGym.Data;
+namespace ProjectRouteGym.DataAccess.Data;
 
 
 

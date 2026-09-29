@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ProjectRouteGym.Models.Plans;
+using ProjectRouteGym.Business.Entities.Plans;
+using ProjectRouteGym.DataAccess.Data;
 
-namespace ProjectRouteGym.Data.Seed;
+namespace ProjectRouteGym.DataAccess.Data.Seed;
 
 public static class PlanSeeder
 {

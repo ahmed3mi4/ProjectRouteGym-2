@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using ProjectRouteGym.Models.Plans;
+using ProjectRouteGym.Business.Entities.Plans;
 
-namespace ProjectRouteGym.Data.Configurations;
+namespace ProjectRouteGym.DataAccess.Data.Configurations;
 
 public class PlanConfiguration : IEntityTypeConfiguration<Plan>
 {

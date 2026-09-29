@@ -1,4 +1,4 @@
-﻿namespace ProjectRouteGym.Data.Seed;
+﻿namespace ProjectRouteGym.DataAccess.Data.Seed;
 
 public static class DataBaseSeeder
 {
